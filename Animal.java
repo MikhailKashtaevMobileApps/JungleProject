@@ -44,7 +44,7 @@ public abstract class Animal {
     }
 
     public void makeSound(){
-        energy -= 3;
+        this.setEnergy(getEnergy()-3);
     }
 
     public void eatRandomFood() throws Exception {
@@ -60,11 +60,11 @@ public abstract class Animal {
             throw new Exception("The animal is not in jungle yet");
         }
         this.jungle.removeFoodByType(foodType);
-        energy += 5;
+        this.setEnergy(getEnergy()+5);
     }
 
     public void sleep(){
-        energy += 10;
+        this.setEnergy(getEnergy()+10);
     }
 
     public void isInJungle(Jungle jungle){
