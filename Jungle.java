@@ -73,13 +73,13 @@ public class Jungle {
     }
 
     public void soundOff() {
+        System.out.println("#####################################");
+        System.out.println("SOUNDS OFF INITIATED!!!");
         for (Animal a : animals) {
             a.makeSound();
-            System.out.println("#####################################");
-            System.out.println("SOUNDS OFF INITIATED!!!");
             System.out.println("Animal-" + a.getName() + " energy levels are " + a.getEnergy());
-            System.out.println("#####################################");
         }
+        System.out.println("#####################################");
     }
 
     public void dump(){

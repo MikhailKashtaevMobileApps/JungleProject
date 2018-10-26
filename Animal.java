@@ -6,7 +6,7 @@ import java.util.Random;
 public class Animal {
 
     private String name;
-    private Integer energy = 10;
+    private Integer energy = 30; //Initial energy 30
     protected String animalType;
     private Integer others;
     private Jungle jungle;
