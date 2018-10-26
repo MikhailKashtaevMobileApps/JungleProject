@@ -1,6 +1,6 @@
 package com.example.mike.jungle;
 
-public class Food {
+public abstract class Food {
     protected String foodType;
 
     public String getFoodType() {

@@ -3,7 +3,7 @@ package com.example.mike.jungle;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private Integer energy = 30; //Initial energy 30
